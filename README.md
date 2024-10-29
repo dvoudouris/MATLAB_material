@@ -3,8 +3,8 @@
 This repository contains introductory material for learning MATLAB, covering fundamental topics such as basic operations, matrices, plotting, and more. 
 
 Each topic folder includes: 
-- A `-.m` file with new material for demonstration. 
-- A `-.m` file with related exercises. 
+- An `-.m` file with new material for demonstration. 
+- An `-.m` file with related exercises. 
 - A PDF summary with main points. 
 
 ## Topics 
