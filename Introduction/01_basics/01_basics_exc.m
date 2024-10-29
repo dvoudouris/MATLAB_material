@@ -9,7 +9,7 @@
 %% Exercise 1
 % a. Multiply 3 by 8 and divide this product by the difference between 13 and 7
 
-% b. If you sleep on average 6h per night, how many seconds did you spend sleeping the last two nights?
+% b. If you sleep, on average, 6 hours per night, how many seconds did you spend sleeping the last two nights?
 
 
 %% Exercise 2
@@ -24,15 +24,15 @@
 %% Exercise 3
 % a. There is a right triangle with sides a = 15, b = 20, c = ?
 % Find the length of side c using the Pythagorean theorem (look it up if you do not remember it)
-% The value of c is equal to the square root of c to the power of 2. 
+% The value of c equals the square root of c to the power of 2. 
 
 % b. How would you calculate c, if a = 19 and b = 23?
 
 
 %% Exercise 4
 % There is a person who likes brewing beer. They store the beer in a
-% cylindrical barrel that has a length of 2 m and a radius of 2 m. Now
-% they want to construct another barrel with the same length (2 m) but with volume that is 20% more
+% cylindrical barrel with a length of 2 m and a radius of 2 m. Now
+% they want to construct another barrel with the same length (2 m) but with a volume that is 20% more
 % than that of the current barrel. How large should the radius of the new barrel be?
 % Note: The volume of the barrel is equal to V = ? * r^2 * h, and that pi = 3.14
 % (r is the radius, h is the height)
@@ -42,7 +42,7 @@
 % Create an m-file with a script that converts a Fahrenheit temperature (say, 95 deg) to Celsius. 
 % Think of a reasonable name when saving this m-file. 
 % In how many ways can you execute this file? Try them out.
-% To do the conversion from F to C, subtract 32 from the Fahrenheit value and multiply the difference by 5/9.
+% To convert from F to C, subtract 32 from the Fahrenheit value and multiply the difference by 5/9.
 
 
 %% Exercise 6
@@ -63,7 +63,7 @@
 % Set the value of the 2nd and every other element after that to 99:
 % so vector v1 should be: 7 99 7 99 ... 99
 
-% c. Create new vector v2 with values between 10 and 199 in steps of 3
+% c. Create a new vector v2 with values between 10 and 199 in steps of 3
 % Create vector v3 that contains the last 39 elements of v2
 
 % d. Assign the 39 values of v3 to the 39 indices of v1 that have values equal to 99
