@@ -148,7 +148,7 @@ coffees = [coffees_week1', coffees_week2];      % this will crash because you ca
 %   - If you want to concatenate them vertically, then they must have the same number of columns
 
 
-%% Take home messages - summary
+%% Take-home messages - summary
 % 1. Consider the correct order of operations when writing your calculations 
 % 
 % 2. MATLAB has its own default vector creation functions: 'ones' and 'zeros' 
