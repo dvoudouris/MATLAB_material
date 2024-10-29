@@ -1,0 +1,15 @@
+# Introduction to MATLAB Course 
+
+This repository contains introductory materials for learning MATLAB, covering essential topics such as basic operations, matrices, plotting, and more. 
+
+Each topic folder includes: 
+- A `-.m` file with new material for demonstration. 
+- A `-.m` file with related exercises. 
+- A PDF summary with main points. 
+
+## Topics 
+1. Basic operations
+2. Matrices 
+3. Reading and saving files 
+4. Plotting
+…
