@@ -81,5 +81,5 @@
 % Can you find two different ways to calculate the medians?
     
     
-%% END OF EXERCISES
+%% END OF THE EXERCISES
 
