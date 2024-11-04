@@ -4,7 +4,8 @@
 
 This repository contains introductory material for learning MATLAB, covering fundamental topics such as basic operations, matrices, plotting, and more. 
 
-Each topic folder includes: 
+Each topic folder is named as TXX, where T stands for Topic and XX reflects the order. 
+Each folder includes: 
 - An `-.m` file with new material for demonstration. 
 - An `-.m` file with related exercises. 
 - A PDF summary with main points. 
