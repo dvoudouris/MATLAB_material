@@ -37,20 +37,17 @@
 % 2. Powers
 % 3. Multiplication and division
 % 4. Addition and subtraction
-% -- For similar operations, order is from left to right
+% -- For similar operations, the order is from left to right
 2 * 3 ^ 2 - 8
 (2 * 3) ^ 2 - 8
 (1 + 2) * 3 ^ 2
 3 * 3 ^ 2
 
-% QUIZ
+% QUIZ: what is the outcome of the following operation? Think first, then execute.
 5 * 2 / 4 * 2
 
 
 %% Variables and help
-
-5 * 2 / 4 * 2
-%%%%%%%%%%%%
 
 % Variables and output suppression
 a = 6
@@ -115,11 +112,11 @@ length(r)
 
 % Create your own *column* vector
 c = [1; 4; 7; 10; 13];  % use semicolon to bring next element to the next row
-r_trans = r';           % or simply *transpose* a row vector
-c_trans = c';           % transposition works for both row and column vectors
+r_trans = r';           % or simply *transpose* a row-vector
+c_trans = c';           % transposition works for both row- and column-vectors
 
 % Let's have another example
-coffees_week1 = [2, 1, 2, 9, 1, 4, 4];     % this is a 7-element row vector. Each element is the number of coffees I drank on each day of a certain week
+coffees_week1 = [2, 1, 2, 9, 1, 4, 4];     % this is a 7-element row-vector. Each element is the number of coffees a person drank on each day of a certain week
 
 % Choose specific elements of your vector
 coffees_week1(1)            % choose element at *index position* 1    
@@ -133,22 +130,22 @@ coffees_week1(4) = 0;      % replace the "accidentally" inserted value of 9 abov
 disp(coffees_week1)
 
 % Perform operations with vectors
-coffees_week2 = [2, 2, 1, 1, 2, 4, 3];          % my coffee consumption for 'week 2'
+coffees_week2 = [2, 2, 1, 1, 2, 4, 3];          % coffee consumption for 'week 2'
 total_coffee = coffees_week1 + coffees_week2;   % total coffee consumption for each day across the two weeks
-goal_week3 = coffees_week2 - 1;                 % I would like to reduce my coffee consumption by 1 cup less per day, for each day
+goal_week3 = coffees_week2 - 1;                 % the person would like to reduce their coffee consumption by 1 cup less per day, for each day
 % Similarly, you can apply all other operations (addition, multiplication, ...) to each element of your vector
 
 % Combine (concatenate) vectors
-coffees = [coffees_week1, coffees_week2];       % puts the 2 row vectors next to each other (use comma)
-coffees = [coffees_week1; coffees_week2];       % puts the 2 row vectors on top of each other (use semicolon)
-coffees = [coffees_week1', coffees_week2'];     % tranposes each row vector to a column, then puts these two columns next to each other
+coffees = [coffees_week1, coffees_week2];       % puts the 2 row-vectors next to each other (use a comma)
+coffees = [coffees_week1; coffees_week2];       % puts the 2 row-vectors on top of each other (use a semicolon)
+coffees = [coffees_week1', coffees_week2'];     % transpose each row-vector to a column, then puts these two columns next to each other
 coffees = [coffees_week1', coffees_week2];      % this will crash because you cannot combine two vectors of unequal sizes
 % If you want to concatenate vectors into a *matrix*, the vectors must have compatible sizes in the relevant dimension: 
 %   - If you want to concatenate them horizontally, then they must have the same number of rows
 %   - If you want to concatenate them vertically, then they must have the same number of columns
 
 
-%% Take home messages - summary
+%% Take-home messages - summary
 % 1. Consider the correct order of operations when writing your calculations 
 % 
 % 2. MATLAB has its own default vector creation functions: 'ones' and 'zeros' 

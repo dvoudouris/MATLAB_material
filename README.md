@@ -1,5 +1,7 @@
 # Introduction to MATLAB 
 
+***The repository is being updated frequently. If you notice any bug or mistake, please contact me at d.s.voudouris@gmail.com --THANKS!***
+
 This repository contains introductory material for learning MATLAB, covering fundamental topics such as basic operations, matrices, plotting, and more. 
 
 Each topic folder includes: 
