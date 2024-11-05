@@ -25,20 +25,18 @@ load __demodata.mat         % REMEMBER: The data file needs to be accessible to 
 % 2. Go to Tab HOME and click 'Set Path' in the panel ENVIRONMENT. Then click 'Add folder' and choose the folder where your data file is.
 %   Alternatively, you can also execute: 
 %   addpath('XXXX');    ,where XXXX is the folder where your data file is. 
-% For my case, I should do:
-addpath('C:\Users\dsvou\My Drive\JLU Giessen\Teaching\Intro_to_MatLab\2024_WiSe\03_Read')
 % Now MATLAB will search for files not only in your 'Current Folder, but also in the folders added in the path.
 
 % Other ways to read a file that is neither located in your current folder nor in your search path, 
 % include loading the complete path than just the filename: 
-load 'C:\Users\dsvou\My Drive\JLU Giessen\Teaching\Intro_to_MatLab\2024_WiSe\03_Read\__demodata.mat'             
-load 'C:\Users\dsvou\My Drive\__demodata.mat'          
+load 'XXXX/__demodata.mat'  
+% , where XXXX is the folder where the __demodata.mat file is located. 
 
 % Once the file is loaded, you can see a new variable in the your workspace. 
 % This variable may have a different name than the filename, as in our case today.
 % This is because I had saved a MATLAB variable 'stimlist' under the filename '__demodata.mat'.
 % So when I load the filename '__demodata.mat', the contained variable 'stimlist' will appear in my workspace.
-% We will see more about saving files in the next meeting. 
+% We will see more about saving files in the next topic. 
 
 
 %% Loading a .txt file
@@ -83,11 +81,13 @@ mydata_small = mydata(:, target_cols);            % then use the variable from l
 % If you use the commands in lines 78-79, you need to specify the columns only at one instance, and this will update all your lines (so: faster and less prone to errors)
 
 % The approaches shown above are good if you want to keep header information.
-% However, if you would like to perform calculations, you may encounter problems
+% In newer versions of MATLAB you can do calculations with the numerical values of the table. 
+% For instance, you can calculate the average of the data in column 2
 mean(mydata(:, 2));                               % get the average of column 2
-% a column that contains text (e.g., a header) cannot be used as input for calculating averages.
+% This will return the average *and* the header
 
-% Let's work around this. There are two ways:
+% If you do not want to have the header but only the numerical value, or if you are working with an older version of MATLAB...
+% ...you can work around this. There are two ways:
 mean(mydata{:, 2});                       % Use the curly brackets to choose the ^numerical^ values of your column (i.e. do not consider the header)
 mean( mydata.intensity );                 % Choose the numerical values of the desired column by typing the variable name, followed by a dot and then by the respective header's name
 % Obviously, if you want to apply the same operation  (e.g., mean) to several columns, the first way is faster.
