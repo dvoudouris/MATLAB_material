@@ -8,7 +8,8 @@ Each topic folder is named as TXX, where T stands for Topic and XX reflects the 
 Each folder includes: 
 - An `-.m` file with new material for demonstration. 
 - An `-.m` file with related exercises. 
-- A PDF summary with main points. 
+- A PDF summary with main points.
+- Occasionally, an additional folder with data files
 
 ## Topics 
 1. Basic operations
