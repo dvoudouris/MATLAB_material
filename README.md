@@ -13,6 +13,7 @@ Each folder includes:
 ## Topics 
 1. Basic operations
 2. Matrices 
-3. Reading and saving files 
-4. Plotting
+3. Reading/loading files
+4. Saving variables to files 
+5. Plotting
 …
