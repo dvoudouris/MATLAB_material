@@ -1,5 +1,5 @@
-%%% Introduction to programming with MATLAB - WS 2024/25
-%%% Meeting #4 - Saving data
+%%% Introduction to programming with MATLAB
+%%% Topic #4 - Saving data
 %%% Objectives: Practice various ways to save variables in datafiles of different formats
 %%%
 %%% Dimitris Voudouris, November 2024
@@ -17,7 +17,7 @@ debt = readtable('teina230_spreadsheet.xlsx');
 
 % We now want to choose a sub-matrix of this dataset
 % I will choose the debt of some Mediterranean states
-% I know that these values occur in rows 6, 28, 29, 30 (note, we will learn more efficient ways to choose rows and columns from a matrix/table)
+% I know that these values occur in rows 10, 11, 12, 14, 15, 20 (note, we will learn more efficient ways to choose rows and columns from a matrix/table)
 target_rows = [10, 11, 12, 14, 15, 20];
 debt_Med = debt(target_rows, :);        % new table with data from rows belonging to the target countries
 
@@ -69,14 +69,14 @@ type Med.xls          % will not display anything meaningful because 'type' does
 
 % We can also append data to an existing file
 writetable(debt_Med, 'Med.xls', 'WriteMode', 'append');
-% Here we append the data 'debt_Scand' to the file 'Scand.xls'
+% Here we append the data 'debt_Med' to the file 'Med.xls'
 % So what will this file contain?
 % do: readtable Med.xls to see what is in there
 
 % Note that the variable will be appended even if it does not have the same number of columns with the one already written in the file
 % e.g., the following operation creates a table with five columns
 debt_Med_2020 = debt_Med(:, [1, 8:14]);               
-writetable(debt_Med_2020, 'Med.xls', 'WriteMode', 'append'); % appends the 5-column sub-matrix to the Scand.xls file
+writetable(debt_Med_2020, 'Med.xls', 'WriteMode', 'append'); % appends the 5-column sub-matrix to the Med.xls file
 % The new sub-matrix is appended below the previous data. 
 % This can't be done with numerical matrices. Now MATLAB fills up the indices with NaNs
 readtable('Med.xls')
@@ -90,7 +90,14 @@ readtable('Med.xls')
 
 % Files can be written also to other locations
 target_folder = 'XXX';      % where XXX is a directory in your computer
-writetable(debt_Med_2020, sprintf('%s\\Med.xls', target_folder));
+writetable(debt_Med_2020, sprintf('%s%sMed.xls', target_folder, filesep));      % help sprintf for more information
+% in short, sprintf 'prints' (creates and presents) formatted data into a string
+% sprintf('hello')      , will present the word 'hello' in your command window
+% the cool thing about sprintf is that it can take placeholders that change their value according to the value of certain variable, for instance:
+% sprintf( 'we live in year %d', year(datetime) )       , year(datetime) will return the current year and will put it where the placeholder %d is found
+% sprintf( 'my current folder is %s', pwd)              , pwd returns the Parent Working Directory (current folder) and puts it as a string at the placeholder %s
+% %d stands for a placeholder for a double, %s stands for a placeholder for string
+% explore more options: help sprintf
 cd(target_folder);          % cd stands for 'change directory'. MATLAB will move you to that directory. 
 
 
