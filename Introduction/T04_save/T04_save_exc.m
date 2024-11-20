@@ -12,7 +12,7 @@ warning off     % Calling table functions often produces warnings. If these warn
 % MATLAB can give you. Once you are confident that these warnings are of no use to you, then you may deactivate these messages.
 
 
-%% Exercise 1   - *** (10-15 min)
+%% Exercise 1 
 
 % a. Load the file with the debt
 % Calculate the average debt across all countries for x2019_Q2
@@ -24,7 +24,7 @@ warning off     % Calling table functions often produces warnings. If these warn
 %   - an Excel file 
 
 
-%% Exercise 2   - *** (10-15 min)
+%% Exercise 2 
 
 % a. With the same file as before...
 % Calculate the debt for each year's Quarter 2, across all countries, *except for* EU (row = 1)
@@ -39,7 +39,7 @@ warning off     % Calling table functions often produces warnings. If these warn
 % d. Do the same for Q4, and append these variables to the same text file, as in (c)
 
 
-%% Exercise 3   - *** (15-20 min)
+%% Exercise 3
 
 % You have hopefully created a text file with three sets of triplets (one row for each of the quarters Q2, Q3, and Q4)
 % But what are these numbers? Will you remember what they are if you open this file in a year from now?
@@ -56,7 +56,7 @@ warning off     % Calling table functions often produces warnings. If these warn
 % c. Save the new table in a spreadsheet file under the name 'average_debt_perQ'
 
 
-%% Exercise 4   - ? (15-20 min)
+%% Exercise 4
 
 % a. Calculate the average debt for each quarter across the three years
 % Add this as a fifth column in your table, together with an appropriate header
@@ -66,7 +66,7 @@ warning off     % Calling table functions often produces warnings. If these warn
 % Can you do this with a single command?
 
 
-%% Exercise 5   - ? (10-30 min)
+%% Exercise 5
 
 % The following exercise contains tasks that we did not learn during the meeting. 
 % You could still try to solve these by using online help.
