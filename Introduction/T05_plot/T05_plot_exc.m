@@ -6,7 +6,7 @@
 %%% Practice
 
 
-%% Exercise 1   - *** (5-15 min)
+%% Exercise 1
 
 % a. Set the seed to 1 and create the variable 'uniform' that has 1000 uniformly distributed numbers. 
 % In figure 1, create a histogram showing the distribution of these numbers.
@@ -20,7 +20,7 @@
 % Use black for the histogram bars.
 
 
-%% Exercise 2   - *** (15-25 min)
+%% Exercise 2
 
 % Load the file 'waste_per_capita.xls' 
 
@@ -48,7 +48,7 @@
 % Add the legend at the lower left of your figure
 
 
-%% Exercise 3   - ? (10-20 min)
+%% Exercise 3
 
 % Using the same file as in exercise 2...
 % a. Plot in a new figure 70 the frequency with which each value occurs
@@ -66,7 +66,7 @@
 % Give a command to MATLAB to close figures 70 and 80
 
 
-%% Exercise 4   - ***  (20-40 min)
+%% Exercise 4
 
 % a. Close all open figures. Then create figure 3 that has 2 subplots on a 2x2 configuration. How to do so?
 % Subplot 1 is at the upper left position, subplot 2 is at the upper right position
@@ -93,7 +93,7 @@
 % Inspect the figure and then close all open figures
 
 
-%% Exercise 5   - ? (15-25 min)
+%% Exercise 5
 
 % Load the file 'road.xls'
 % In figure 1, plot the temporal development of the road accidents for each country. Use a line plot. So, the number of accidents of each country is represented by a single line
@@ -108,7 +108,7 @@
 % Can you find a way to deal with this problem? We have not covered this so you need to look for help.
 
 
-%% Exercise 6   - ? (15-25 min)
+%% Exercise 6
 
 % a. Load the file with the debt
 % Define 6 variables, each having the numerical data of a country that you would like to visualize.
