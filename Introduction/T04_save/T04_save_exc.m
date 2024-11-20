@@ -6,14 +6,6 @@
 %%% Practice
 
 
-% Explanations:
-% ***   : Please do
-% ?     : Optional to do if you have time
-
-% The duration of each exercises is a rough estimate, but one estimate cannot fit all of you. 
-% If it takes you much longer (> two times longer), then this means that this is a hard exercise. You can thus get in touch with me for advice regarding this exercise.
-
-
 %% 
 warning off     % Calling table functions often produces warnings. If these warnings disturb you, you can deactivate warnings
 % It is recommended to never have this setting at the beginning of your endeavors in order to ensure that you leverage all information that
