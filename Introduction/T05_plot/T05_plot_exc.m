@@ -5,9 +5,6 @@
 %%% Dimitris Voudouris, November 2024
 %%% Practice
 
-% The duration of each exercises is a rough estimate, but one estimate cannot fit all of you. 
-% If it takes you much longer (> two times longer), then this means that this is a hard exercise. You can thus get in touch with me for advice regarding this exercise.
-
 
 %% Exercise 1   - *** (5-15 min)
 
