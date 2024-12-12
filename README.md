@@ -16,5 +16,7 @@ Each folder includes:
 2. Matrices 
 3. Reading/loading files
 4. Saving variables
-5. Plotting
+5. Line plots, bars, histograms 
+6. Graph properties, scatter plots
+7. Structures
 …
