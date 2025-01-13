@@ -19,4 +19,5 @@ Each folder includes:
 5. Line plots, bars, histograms 
 6. Graph properties, scatter plots
 7. Structures
+8. Interim summary
 …
