@@ -20,4 +20,5 @@ Each folder includes:
 6. Graph properties, scatter plots
 7. Structures
 8. Interim summary
+9. Logical operations
 …
