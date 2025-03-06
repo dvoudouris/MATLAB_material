@@ -2,7 +2,7 @@
 
 ***The repository is being updated frequently. If you notice any bug or mistake, please contact me at d.s.voudouris@gmail.com --THANKS!***
 
-This repository contains introductory material for learning MATLAB, covering fundamental topics such as basic operations, matrices, plotting, and more. 
+This repository contains introductory material for learning MATLAB, covering fundamental topics such as basic operations, matrices, plotting, and control flow.
 
 Each topic folder is named as TXX, where T stands for Topic and XX reflects the order. 
 Each folder includes: 
