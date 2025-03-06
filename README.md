@@ -22,4 +22,6 @@ Each folder includes:
 8. Interim summary
 9. Logical operations
 10. IF-expressions
-11. …
+11. FOR-loops
+12. WHILE-loops
+13. …
