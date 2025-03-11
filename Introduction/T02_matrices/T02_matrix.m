@@ -1,4 +1,4 @@
-%%% Introduction to programming with MATLAB - WS 2024/2025
+%%% Introduction to programming with MATLAB
 %%% Topic #2 - Opertations with matrices
 %%% Objectives: Create matrices - Access matrix elements - Do operations with matrices
 %%% 
